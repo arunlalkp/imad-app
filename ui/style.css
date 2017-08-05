@@ -22,3 +22,14 @@ body {
     border-radius: 50%;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #31858a;
+    font-family: sans-serif;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    }
+     
