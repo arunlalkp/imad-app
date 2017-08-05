@@ -6,7 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne= {
+var articles = { 
+  articleOne: {
     title: 'Article One | Arun Lal',
     heading: 'Article One',
     date: 'August 5, 2017',
@@ -20,29 +21,44 @@ var articleOne= {
              <p> Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
                  Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
              </p>`
-};
+    }};
+  articleTwo: {
+    title: 'Article Two | Arun Lal',
+    heading: 'Article Two',
+    date: 'August 6, 2017',
+    content: `<p>
+    Hi, This is my second article. on My IMAD console page for just, understand how codeing is works and Learn app development!
+             </p>`
+    };
+  articleThree: {
+      title: 'Article Three | Arun Lal',
+    heading: 'Article Three',
+    date: 'August 7, 2017',
+    content: `<p>
+    Hi, This is my Third article. on My IMAD console page for just, understand how codeing is works and Learn app developme
+             </p>`
+    };
+  };
 
 function createTemplate (data) {
-    var title= data.title;
-    var heading= data.heading;
-    var date= data.date;
-    var content= data.content;
+      var title= data.title;
+      var heading= data.heading;
+      var date= data.date;
+      var content= data.content;
     
-
-
-var htmlTemplate= `
+    var htmlTemplate= `
     
-   <html>
-    <head>
-        <title>
+      <html>
+        <head>
+          <title>
             ${title}
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
+          </title>
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <link href="/ui/style.css" rel="stylesheet" />
+        </head>
     
-    <body>
-    <div class='container'>
+      <body>
+      <div class='container'>
         <div>
             <a href='/'>Home</a>
             <hr/>
@@ -56,10 +72,10 @@ var htmlTemplate= `
         <div>
            ${content}
         </div>
-    </div>
-    </body>
-   </html>
- ` ;
+      </div>
+      </body>
+     </html>
+    ` ;
   return htmlTemplate;
 }
 
