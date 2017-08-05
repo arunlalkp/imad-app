@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = { 
-  articleOne: {
+  'article-one': {
     title: 'Article One | Arun Lal',
     heading: 'Article One',
     date: 'August 5, 2017',
@@ -22,15 +22,14 @@ var articles = {
                  Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
              </p>`
     }};
-  articleTwo: {
+  'article-two': {
     title: 'Article Two | Arun Lal',
     heading: 'Article Two',
-    date: 'August 6, 2017',
-    content: `<p>
+     content: `<p>
     Hi, This is my second article. on My IMAD console page for just, understand how codeing is works and Learn app development!
              </p>`
     };
-  articleThree: {
+  'article-three': {
       title: 'Article Three | Arun Lal',
     heading: 'Article Three',
     date: 'August 7, 2017',
@@ -80,21 +79,18 @@ function createTemplate (data) {
 }
 
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+app.get('/:articleName', function (req, res) {
+  res.send(createTemplates(articles[articleName]));
 });
 
 app.get('/article-one', function (req, res) {
+    var articleName = req.params.articleName;
     res.send(createTemplate(articleOne));
 });
 
-app.get('/article-two', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
 
-app.get('/article-three', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
+
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
