@@ -7,6 +7,6 @@ element.innerHTML = 'Lal Broz';
 //move the picture
 var img = document.getElementById('arun');
 img.onClick = function () {
-    img.style.marginLeft = '100px';
+    img.style.marginleft = '100px';
     
 };
