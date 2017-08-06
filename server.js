@@ -25,12 +25,13 @@ var articles = {
   'article-two': {
     title: 'Article Two | Arun Lal',
     heading: 'Article Two',
-     content: `<p>
+    date: 'August 6, 2017',
+    content: `<p>
     Hi, This is my second article. on My IMAD console page for just, understand how codeing is works and Learn app development!
              </p>`
     },
   'article-three': {
-      title: 'Article Three | Arun Lal',
+    title: 'Article Three | Arun Lal',
     heading: 'Article Three',
     date: 'August 7, 2017',
     content: `<p>
