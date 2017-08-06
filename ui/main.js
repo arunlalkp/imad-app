@@ -1,18 +1,13 @@
 console.log('Loaded!');
 
-//to change the txt on div
-var element = document.getElementById('main-text');
-element.innerHTML = 'Lal Broz';
+//counter code
 
-//move the picture
-var img = document.getElementById('arun');
-img.onclick = function () {
+var button = getElementById('counter');
+var counter = 0;
+button.onclick = function() {
     
-    var marginLeft = 0;
-    function moveRight () {
-     marginLeft = marginLeft + 3;
-     img.style.marginLeft = marginLeft + 'px';
- }
- var interval = setInterval(moveRight, 25);
+counter = counter + 1;
+var span = getElementById('count');
+span.innerHTML = counter.toString();
     
 };
