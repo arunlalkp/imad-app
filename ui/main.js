@@ -2,4 +2,4 @@ console.log('Loaded!');
 
 //to change the txt on div
 var element = document.getElementById('main-text');
-element.InnerHTML = 'New Value';
+element.InnerHTML = 'LAL BROZ';
