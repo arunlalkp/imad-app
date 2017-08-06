@@ -73,7 +73,7 @@ function createTemplate (data) {
            ${content}
         </div>
         
-        </hr>
+        <hr/>
       </div>
       </body>
      </html>
