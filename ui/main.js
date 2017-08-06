@@ -7,8 +7,9 @@ element.innerHTML = 'Lal Broz';
 //move the picture
 var img = document.getElementById('arun');
 img.onclick = function () {
+    
     var marginLeft = 0;
- function moveRight () {
+    function moveRight () {
      marginLeft = marginLeft + 10;
      img.style.marginLeft = marginLeft + 'px';
  }
