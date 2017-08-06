@@ -21,14 +21,14 @@ var articles = {
              <p> Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
                  Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
              </p>`
-    }};
+    },
   'article-two': {
     title: 'Article Two | Arun Lal',
     heading: 'Article Two',
      content: `<p>
     Hi, This is my second article. on My IMAD console page for just, understand how codeing is works and Learn app development!
              </p>`
-    };
+    },
   'article-three': {
       title: 'Article Three | Arun Lal',
     heading: 'Article Three',
@@ -36,7 +36,7 @@ var articles = {
     content: `<p>
     Hi, This is my Third article. on My IMAD console page for just, understand how codeing is works and Learn app developme
              </p>`
-    };
+    },
   };
 
 function createTemplate (data) {
