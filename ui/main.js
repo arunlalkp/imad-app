@@ -39,8 +39,9 @@ submit.onlick = function () {
     for (var i=0; i<names.length; i++) {
         list += '<li>' + names[i] + '</li>';
         
-       var ui = document.getElementById('namelist');
+       }
+    
+    var ui = document.getElementById('namelist');
     ui.innerHtml = list; 
-    }
     
 };
