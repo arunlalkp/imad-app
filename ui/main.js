@@ -42,6 +42,6 @@ submit.onlick = function () {
        }
     
     var ui = document.getElementById('namelist');
-    ui.innerHtml = list; 
+    ui.innerHTML = list; 
     
 };
