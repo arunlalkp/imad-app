@@ -39,6 +39,7 @@ body {
 }
      
 .footerdiv {
+    position: absolute;
     margin: 0 auto;
     background-color: lightgrey;
     font-family: Courier New;
