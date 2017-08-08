@@ -41,4 +41,6 @@ body {
     border-bottom: 3px solid maroon;
 }
      
-  
+.footerdiv {
+    background-color: maroon;
+}
