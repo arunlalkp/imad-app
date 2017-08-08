@@ -39,6 +39,7 @@ body {
 }
      
 .footerdiv {
+    margin: 0 auto;
     background-color: lightgrey;
     font-family: Courier New;
     font-size: 12px;
