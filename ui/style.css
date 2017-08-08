@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-.left {
+.image {
     text-align: left;
 }
 
@@ -38,7 +38,7 @@ body {
     font-size: 50px;
     color: maroon; 
     padding-bottom: 20px;
-    border-bottom: 2px solid maroon;
+    border-bottom: 3px solid maroon;
 }
      
  
