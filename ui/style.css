@@ -42,7 +42,10 @@ body {
 }
      
 .footerdiv {
-    background-color: maroon;
+    background-color: snow;
+    font-family: serif;
+    font-size: 10px;
+    color: black;
     text-align: center;
     padding-bottom: 20px;
 }
