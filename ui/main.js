@@ -45,3 +45,4 @@ submit.onlick = function () {
     ul.innerHTML = list; 
     
 };
+console.log('works great');
