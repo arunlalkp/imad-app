@@ -43,4 +43,6 @@ body {
      
 .footerdiv {
     background-color: maroon;
+    text-align: center;
+    padding-bottom: 20px;
 }
