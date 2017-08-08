@@ -43,10 +43,10 @@ body {
      
 .footerdiv {
     background-color: lightgrey;
-    font-family: roboto;
+    font-family: monaco;
     font-size: 20px;
     color: black;
     text-align: center;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
