@@ -33,9 +33,13 @@ h3 {
     margin: 0 auto;
     color: #31858a;
     font-family: sans-serif;
-    
-    
+
     }
+    
+.article-container {
+    padding: 20px 20px;
+}
+
 .main-heading {
     width: 20%;
     font-family: 'Fredoka One', cursive;
