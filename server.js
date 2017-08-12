@@ -33,7 +33,7 @@ function createTemplate (data) {
          
         </head>
     
-      <body>
+      <body class= 'article-body'>
       <div class='article-container'>
         <div>
             <a href='/'>Home</a>
