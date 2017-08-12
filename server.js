@@ -15,40 +15,6 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articles = { 
-  'article-one': {
-    title: 'Article One | Arun Lal',
-    heading: 'Article One',
-    date: 'August 5, 2017',
-    content: `<p>Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-                 Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-            </p>
-            
-            <p> Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-                 Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-            </p>
-             <p> Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-                 Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development! Hi, This is my first article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-             </p>`
-    },
-  'article-two': {
-    title: 'Article Two | Arun Lal',
-    heading: 'Article Two',
-    date: 'August 6, 2017',
-    content: `<p>
-    Hi, This is my second article. on My IMAD console page for just, understand how codeing is works and Learn app development!
-             </p>`
-    },
-  'article-three': {
-    title: 'Article Three | Arun Lal',
-    heading: 'Article Three',
-    date: 'August 7, 2017',
-    content: `<p>
-    Hi, This is my Third article. on My IMAD console page for just, understand how codeing is works and Learn app developme
-             </p>`
-    },
-  };
-
 function createTemplate (data) {
       var title= data.title;
       var heading= data.heading;
