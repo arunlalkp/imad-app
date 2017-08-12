@@ -39,6 +39,9 @@ h3 {
 .article-container {
     padding: 20px 50px;
 }
+.article-body {
+    background-color: yellow;
+}
 
 .main-heading {
     width: 20%;
