@@ -33,13 +33,12 @@ h3 {
     margin: 0 auto;
     color: #31858a;
     font-family: sans-serif;
-    border-bottom: 5px solid black;
-
-    }
+    
+}
     
 .article-container {
     padding: 20px 50px;
-}
+    }
 .article-body {
     background-color: lightSteelBlue;
 }
