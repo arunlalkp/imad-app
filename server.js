@@ -3,6 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 var Pool = require('pg').Pool;
 var crypto = require('crypto');
+var bodyParcer = require('body-parcer');
 
 var config = {
     user: 'arunlalkpkp78',
@@ -14,6 +15,7 @@ var config = {
 
 var app = express();
 app.use(morgan('combined'));
+app.use(bodyParcer.json());
 
 
 function createTemplate (data) {
