@@ -21,6 +21,7 @@ header .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  text-align: left; 
 }
 
 header nav {
@@ -31,6 +32,7 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
+  
 }
 
 
