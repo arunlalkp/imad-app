@@ -41,7 +41,7 @@ header p {
   background: url(https://pbs.twimg.com/media/DF-apjjU0AAlE-6?format=jpg);
   background-size: cover;
   display: flex;
-  align-items: center;
+  
   
   
   color: grey;
@@ -60,6 +60,7 @@ header p {
 .jumbotron h3 {
   margin: 0 0 20px;
   color: white;
+  text-align: left;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
