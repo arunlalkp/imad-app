@@ -41,7 +41,7 @@ header p {
   background: url(https://pbs.twimg.com/media/DF-apjjU0AAlE-6?format=jpg);
   background-size: cover;
   display: flex;
-  align-items: left;
+  align-items: center;
   
   color: grey;
   height: 500px;
