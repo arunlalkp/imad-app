@@ -57,7 +57,7 @@ header p {
   color: #fff;
 }
 
- h3 {
+.jumbortron h3 {
   margin: 0 0 20px;
   color: white;
   text-align: left;
