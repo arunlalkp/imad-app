@@ -37,6 +37,9 @@ header p {
 }
 
 .jumbotron {
+
+  background: url(https://pbs.twimg.com/media/DF-apjjU0AAlE-6?format=jpg);
+  background-size: cover;
   display: flex;
   align-items: center;
   
@@ -46,8 +49,7 @@ header p {
 }
 
 .jumbotron h2 {
-  background: url(https://pbs.twimg.com/media/DF-apjjU0AAlE-6?format=jpg);
-  background-size: cover;
+ 
   font-size: 60px;
   font-weight: 700;
   margin: 0;
